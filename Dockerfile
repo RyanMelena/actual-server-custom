@@ -1,5 +1,5 @@
 # Start from the third-party image
-FROM ghcr.io/actualbudget/actual-server
+FROM actualbudget/actual-server
 
 # Add Pid1 package
 ADD https://github.com/fpco/pid1/releases/download/v0.1.3.1/pid1 /usr/bin/pid1
